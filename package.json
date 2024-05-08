@@ -1,0 +1,18 @@
+{
+  "name": "one-page-site-2",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx serve ./app & node watch.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.77.0",
+    "serve": "^14.2.3",
+    "watchpack": "^2.4.1"
+  }
+}

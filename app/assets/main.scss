@@ -1,0 +1,43 @@
+.root-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-side {
+    position: fixed;
+    width: 240px;
+    height: 100%;
+    overflow-y: auto;
+    box-sizing: border-box;
+    border-right: 1px solid rgba(119, 119, 119, 0.465);
+
+    .comp-box {
+        border-radius: 4px;
+        color: black;
+        font-size: 16px;
+        padding: 6px 0;
+        font-weight: bold;
+        text-align: center;
+        border: 1px solid #ccc;
+        margin-bottom: 8px;
+        margin-right: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+.right-side {
+    margin-left: 240px;
+    height: 100%;
+    overflow-y: auto;
+    #canvas-zone{
+        min-height: 100%;
+    }
+}
+
+.drag-item {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}

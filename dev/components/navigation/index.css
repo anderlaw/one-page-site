@@ -1,0 +1,27 @@
+.one-page-site_nav {
+  display: flex;
+  height: 60px;
+  padding: 0 18px;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: rgba(61, 91, 31, 0.439);
+}
+.one-page-site_nav .logo {
+  display: flex;
+  align-items: center;
+}
+.one-page-site_nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.one-page-site_nav ul li {
+  margin-left: 8px;
+  padding: 6px;
+  background-color: #ccc;
+}
+.one-page-site_nav ul li a {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}/*# sourceMappingURL=index.css.map */
